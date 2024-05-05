@@ -1,0 +1,39 @@
+/* General styling for the UserLogout component */
+.user-logout-container {
+    padding: 20px; /* Space around the component */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  /* Styling for the header section */
+  .logout-header {
+    display: flex;
+    justify-content: space-between; /* Distribute content across the width */
+    align-items: center; /* Align items vertically */
+    background-color: #004085; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 15px; /* Padding for the header */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Styling for the logout button */
+  .logout-header button {
+    background-color: #c82333; /* Red background for the logout button */
+    color: white; /* White text for contrast */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding for the button */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  /* Hover effect for the logout button */
+  .logout-header button:hover {
+    background-color: #a71d2a; /* Darker red on hover */
+  }
+  
+  /* Styling for the welcome message */
+  .welcome-message {
+    font-size: 100px;
+    color: purple;
+  }
+  

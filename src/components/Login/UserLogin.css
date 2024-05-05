@@ -1,0 +1,57 @@
+h1{
+  background-color: lightseagreen;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 50%;
+    margin-left: 30%;
+}
+.login-form {
+    background-color: #b0a69c;
+    padding: 20%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.login-form label {
+    display: block; /* Labels should be block elements */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 8px; /* Spacing below label */
+  }
+  
+  .login-form input {
+    width: 100%; /* Inputs should fill the form's width */
+    padding: 8px; /* Padding for text inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    margin-bottom: 16px; /* Spacing below input */
+    font-size: 16px; /* Larger font size */
+  }
+  
+  .login-form button {
+    width: 50%; /* Button should also fill the form's width */
+    padding: 10px; /* Padding for the button */
+    background-color: #007bff; /* Bootstrap blue */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  .login-button.blurred { /* Blur effect when form is invalid */
+    background-color: #aaa; /* Dull gray to indicate disabled */
+    cursor: not-allowed; /* Change cursor to indicate non-interactivity */
+  }
+  
+  .login-button:disabled {
+    background-color: #aaa; /* Dull gray when disabled */
+    cursor: not-allowed; /* Cursor indicates it's not clickable */
+  }
